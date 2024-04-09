@@ -56,7 +56,7 @@
 
 .formFieldContainer {
     width: 75%;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 }
 
 .formTokenInfoContainer {
