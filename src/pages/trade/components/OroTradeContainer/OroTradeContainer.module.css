@@ -1,0 +1,252 @@
+.oroTradeContainer {
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.oroGoldTradeTitleContainer {
+    font-size: 1.75rem;
+    font-weight: bold;
+    max-width: 70%;
+}
+
+.oroTradeBoxContainer {
+    width: 100%;
+    background-color: #0d0d0d;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background: linear-gradient(to right, #0d0d0d, #0c0c0c, #15120d);
+}
+
+.tradeButtonsContainer {
+    display: flex;
+}
+
+.tradeButton {
+    background-color: #1b1b1b;
+    padding: 0.5rem;
+    margin: 1.2rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: #999;
+}
+
+.tokenBoxContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.tokenBoxOne {
+    background-color: #1b1b1b;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.formFieldAndTokenInfoContainer {
+    display: flex;
+    width: 100%;
+}
+
+.formFieldContainer {
+    width: 75%;
+    overflow-x: scroll;
+}
+
+.formTokenInfoContainer {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formTokenName {
+    font-size: 1.2rem;
+    font-weight: 550;
+    margin-left: 0.1rem;
+    margin-bottom: 0.25rem;
+}
+
+.tokenBoxTitleContainer {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.arrowContainer {
+    z-index: 1000;
+    background-color: #1b1b1b;
+    width: fit-content;
+    position: absolute;
+    border: 2px solid black;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    top: 50%;
+    left: 45%;
+    cursor: pointer;
+    /* transform: translateX(-50%); */
+    /* transform: translateY(-50%); */
+}
+
+.tokenBoxTwo {
+    background-color: #1b1b1b;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.4rem;
+    padding: 1rem;    
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.actionButtonContainer {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #161515;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    color: #999;
+    padding-bottom: 1rem;
+    background: radial-gradient(circle, #ffde9c, #ffce71);
+}
+
+.actionButtonContainer:hover {
+    cursor: pointer;
+}
+
+.nullSpace {
+    height: 1px;
+}
+
+.actionModal {
+    background: linear-gradient(to right, #0d0d0d, #0c0c0c, #15120d);
+    position: fixed;
+    top: 100px;
+    left: 550px;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.havePurchasedModal {
+    background: linear-gradient(to right, #0d0d0d, #0c0c0c, #15120d);
+    position: fixed;
+    top: 100px;
+    left: 35%;
+    width: 400px;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.closeHavePurchasedButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    width: 100%;
+}
+
+.oroLogoContainer {
+    font-size: 2rem;
+    color: #ffce71;
+}
+.purchaseText {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    font-size: 0.85rem;
+    color: #999;
+    border-bottom: 1px solid rgba(99, 99, 99, 0.5);
+}
+
+.approvalWaitText {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.approvalHelpText {
+    color: #999;
+    font-size: 0.8rem;
+    margin-top: 0.75rem;
+    max-width: 80%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(99, 99, 99, 0.5);
+}
+
+.secureTransactionNote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.spinnerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .threeQuarterSpinner {
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 0.5s linear 0s infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+  .continueButton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #161515;
+    margin: 1rem;
+    padding-top: 1rem;
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    background: radial-gradient(circle, #ffde9c, #ffce71);
+    cursor: pointer;
+}
+
+.purchaseInfoContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    margin: 1rem;
+    font-size: 0.8rem;
+    color: #999;
+}

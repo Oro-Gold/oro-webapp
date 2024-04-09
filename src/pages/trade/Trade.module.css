@@ -1,0 +1,19 @@
+.tradePageContainer {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.oroInfoContainer {
+    /* background-color: red; */
+    width: 58.5%;
+}
+
+.oroTradeContainer {
+    /* background-color: yellow; */
+    width: 31.5%;
+}
+
